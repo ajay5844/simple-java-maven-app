@@ -10,9 +10,9 @@ pipeline {
           }
         }
 
-        stage('') {
+        stage('error') {
           steps {
-            echo 'happy ?'
+            echo 'echo "happy"'
           }
         }
 
